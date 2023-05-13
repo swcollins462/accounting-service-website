@@ -110,16 +110,15 @@ ol > li::marker {
 }
 
 /* Footer styling */
-.back-to-top-button {
+.back-to-top {
+    display: flex;
     width: 100%;
     height: 4rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.back-to-top-link {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
+/* Adjust for mobile */
   @media screen and (max-width: 800px) {
     .banner-text {
         margin: 8rem 3rem;
