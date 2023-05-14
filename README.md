@@ -1,6 +1,19 @@
 # Accounting Service Website
 
+Project by Stephen Collins
+
+Landing page and informational site for fictitious accounting firm Stratford Accounting
+
 Hosting link: https://swcollins462.github.io/accounting-service-website/
+
+Page design and images taken from template at canva.com.
+Site features a striking landing page followed by a responsive multi-column layout. Site uses HTML, CSS, and the Bootstrap grid system.
+
+Future improvements could include:
+
+1. A more detailed company profile page accessed by clicking on the 'Learn More' button.
+2. A working search function.
+3. A privacy policy page and/or an about us page.
 
 ## User stories
 
@@ -17,5 +30,3 @@ AS AN individual with a complex tax situation
 I WANT TO choose a good accountant
 SO THAT I can file my tax return
 ```
-
-Page design and images taken from template at canva.com.
