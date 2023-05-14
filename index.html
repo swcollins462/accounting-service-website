@@ -82,14 +82,14 @@
             <div class="modal-body">
               <p class="form-text">Submit the form below and a member of our staff will reach out to schedule 
                 your appointment</p>  
-              <form>
+              <form action="https://formspree.io/f/moqzbwbw" method="POST">
                 <div class="mb-3">
                   <label for="firstName" class="form-label">First Name</label>
-                  <input type="text" class="form-control" id="firstName" required>
+                  <input type="text" class="form-control" id="firstName" name="firstName" required>
                 </div>
                 <div class="mb-3">
                   <label for="lastName" class="form-label">Last Name</label>
-                  <input type="text" class="form-control" id="lastName" required>
+                  <input type="text" class="form-control" id="lastName" name="lastName" required>
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email address</label>
@@ -98,18 +98,19 @@
                     class="form-control" 
                     id="email" 
                     aria-describedby="emailHelp"
+                    name="email"
                     required>
                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <label for="businessNeed" class="form-label">Business Need</label>
-                <select class="form-select mb-3" aria-label="businessNeed">
+                <select class="form-select mb-3" aria-label="businessNeed" name="businessNeed">
                   <option selected>Choose Business Need</option>
-                  <option value="1">Individual / Sole Proprietor</option>
-                  <option value="2">Partnership</option>
-                  <option value="3">Limited Liability Corporation</option>
-                  <option value="4">Corporation with fewer than 100 employees</option>
-                  <option value="5">Corporation with 100 employees or more</option>
-                  <option value="6">Other</option>
+                  <option value="individual">Individual / Sole Proprietor</option>
+                  <option value="partnership">Partnership</option>
+                  <option value="LLC">Limited Liability Corporation</option>
+                  <option value="small-corporation">Corporation with fewer than 100 employees</option>
+                  <option value="large-corporation">Corporation with 100 employees or more</option>
+                  <option value="other">Other</option>
                 </select>                
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
