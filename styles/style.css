@@ -127,7 +127,6 @@ ol > li::marker {
     .cube-icon {
         margin: 4rem 3rem;
     }
-    
   } 
 
   @media screen and (max-width: 992px) {
