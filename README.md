@@ -17,7 +17,7 @@ Site features a striking landing page followed by a responsive multi-column layo
 
 Future improvements could include:
 
-1. A more detailed company profile page accessed by clicking on the 'Learn More' button.
+1. A more detailed company profile page accessed by clicking the 'Learn More' button.
 2. A working search function.
 3. A privacy policy page and/or an about us page.
 
