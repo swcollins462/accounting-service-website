@@ -6,8 +6,8 @@ Landing page and informational site for fictitious accounting firm Stratford Acc
 
 Hosting link: https://swcollins462.github.io/accounting-service-website/
 
-Page design and images taken from template at canva.com.
-Site features a striking landing page followed by a responsive multi-column layout. Site uses HTML, CSS, and the Bootstrap grid system.
+Page design and images taken from a template at canva.com.
+Site features a striking landing page followed by a responsive multi-column layout. Site uses HTML, CSS, a modal window, a form utilizing formspree.io, and the Bootstrap grid system.
 
 Future improvements could include:
 
