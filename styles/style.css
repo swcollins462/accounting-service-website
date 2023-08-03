@@ -27,7 +27,7 @@ body {
 }
 
 .banner-text > p {
-    font-size: calc(1.75rem + 1vw);
+    font-size: calc(1rem + 1.5vw);
     color: rgb(173, 181, 189);
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 h1 {
-    font-size: calc(2rem + 3vw);
+    font-size: calc(2.5rem + 2vw);
     font-weight: bold;
 }
 
