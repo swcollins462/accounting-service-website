@@ -8,7 +8,7 @@
 
 /* Landing page */
 body {
-    min-width: 460px;
+    min-width: 368px;
 }
 
 .banner-card {
@@ -26,8 +26,8 @@ body {
     margin: 8rem 8rem;
 }
 
-.banner-text p {
-    font-size: 2rem;
+.banner-text > p {
+    font-size: calc(1.75rem + 1vw);
     color: rgb(173, 181, 189);
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: calc(2.5rem + 2.5vw);
     font-weight: bold;
 }
 
